@@ -1384,7 +1384,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 2750 4850 3050
 Text Notes 7800 6500 0    49   ~ 0
-NOTA:\n1.-El capacitor de 100uF debe ser colocado lo mas cerca del modulos SIM900.\n2.-El conector de Test RF debe estar lo mas cerca posible del modulo SIM900.\n3.-Los componentes deben estar tan cerca del  microfono y spiker de ser posible.\n4.-Ambos tipos de lineas deben  colocarse siguiedo las reglas de diferencial de lineas.\n
+NOTA:\n1.-El capacitor de 100uF debe ser colocado lo mas cerca del modulos SIM900.\n2.-El conector de Test RF debe estar lo mas cerca posible del modulo SIM900.\n3.-Los componentes deben estar tan cerca del  microfono y speaker de ser posible.\n4.-Ambos tipos de lineas deben  colocarse siguiendo las reglas de diferencial de lineas.\n
 $Comp
 L Poncho_Esqueleto:Conn_Poncho2P_2x_20x2 XA1
 U 1 1 5F821A0C
@@ -1684,9 +1684,9 @@ F 3 "~" H 6250 2100 50  0001 C CNN
 	1    6250 2100
 	-1   0    0    -1  
 $EndComp
-Text Label 6450 2400 2    50   ~ 0
-TXD
 Text Label 6450 2500 2    50   ~ 0
+TXD
+Text Label 6450 2400 2    50   ~ 0
 RXD
 Wire Wire Line
 	6450 3700 6700 3700
@@ -1704,9 +1704,9 @@ Wire Wire Line
 	6550 4000 6550 4100
 Wire Wire Line
 	6550 4100 6700 4100
-Text Label 5250 6600 2    50   ~ 0
-TXD
 Text Label 5250 6700 2    50   ~ 0
+TXD
+Text Label 5250 6600 2    50   ~ 0
 RXD
 NoConn ~ 5300 6400
 NoConn ~ 5300 6500

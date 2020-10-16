@@ -1284,7 +1284,7 @@ Wire Wire Line
 	4050 4100 4050 4200
 Wire Wire Line
 	950  950  1150 950 
-Text Label 3750 6900 2    50   ~ 0
+Text Label 5200 7050 3    50   ~ 0
 RST_EXT
 Text Label 9500 5400 2    50   ~ 0
 RST_EXT
@@ -1396,17 +1396,6 @@ F 3 "" H 5550 5800 60  0000 C CNN
 	1    5550 5800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Poncho_Esqueleto:Conn_Poncho2P_2x_20x2 XA1
-U 2 1 5F824C2E
-P 4050 5800
-F 0 "XA1" H 4400 6347 60  0000 C CNN
-F 1 "Conn_Poncho2P_2x_20x2" H 4400 6241 60  0000 C CNN
-F 2 "Poncho_Esqueleto:Conn_Poncho_Chico" H 4050 5800 60  0001 C CNN
-F 3 "" H 4050 5800 60  0000 C CNN
-	2    4050 5800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1100 2750 1100 2700
 Wire Wire Line
@@ -1492,52 +1481,30 @@ Wire Notes Line
 Wire Notes Line
 	11050 5000 9100 5000
 Wire Wire Line
-	3800 5600 3700 5600
-Wire Wire Line
 	3700 5600 3700 5700
-Wire Wire Line
-	3700 5800 3800 5800
-Wire Wire Line
-	3800 5700 3700 5700
 Connection ~ 3700 5700
 Wire Wire Line
 	3700 5700 3700 5800
 Wire Wire Line
-	3800 6000 3700 6000
-Wire Wire Line
 	3700 6000 3700 5800
 Connection ~ 3700 5800
-Wire Wire Line
-	3800 6100 3700 6100
 Wire Wire Line
 	3700 6100 3700 6000
 Connection ~ 3700 6000
 Wire Wire Line
-	3800 6300 3700 6300
-Wire Wire Line
 	3700 6300 3700 6100
 Connection ~ 3700 6100
-Wire Wire Line
-	3800 6400 3700 6400
 Wire Wire Line
 	3700 6400 3700 6300
 Connection ~ 3700 6300
 Wire Wire Line
-	3800 6700 3700 6700
-Wire Wire Line
 	3700 6700 3700 6400
 Connection ~ 3700 6400
-Wire Wire Line
-	3800 6800 3700 6800
 Wire Wire Line
 	3700 6800 3700 6700
 Connection ~ 3700 6700
 Wire Wire Line
-	3800 7300 3700 7300
-Wire Wire Line
 	3700 7300 3700 7350
-Wire Wire Line
-	3700 7400 3800 7400
 Wire Wire Line
 	6500 6400 6600 6400
 Wire Wire Line
@@ -1669,7 +1636,6 @@ NoConn ~ 5000 6600
 NoConn ~ 5000 6700
 NoConn ~ 5000 6800
 NoConn ~ 5000 6900
-NoConn ~ 5000 7000
 NoConn ~ 5000 7100
 NoConn ~ 5000 7200
 NoConn ~ 5000 7300
@@ -1718,9 +1684,9 @@ F 3 "~" H 6250 2100 50  0001 C CNN
 	1    6250 2100
 	-1   0    0    -1  
 $EndComp
-Text Label 6450 2400 2    50   ~ 0
-TXD
 Text Label 6450 2500 2    50   ~ 0
+TXD
+Text Label 6450 2400 2    50   ~ 0
 RXD
 Wire Wire Line
 	6450 3700 6700 3700
@@ -1738,9 +1704,9 @@ Wire Wire Line
 	6550 4000 6550 4100
 Wire Wire Line
 	6550 4100 6700 4100
-Text Label 5250 6600 2    50   ~ 0
-TXD
 Text Label 5250 6700 2    50   ~ 0
+TXD
+Text Label 5250 6600 2    50   ~ 0
 RXD
 NoConn ~ 5300 6400
 NoConn ~ 5300 6500
@@ -1799,8 +1765,6 @@ Wire Wire Line
 	7600 1500 7600 1450
 Wire Wire Line
 	6700 6400 6700 6300
-Wire Wire Line
-	3800 6900 3750 6900
 Text Notes 4700 7600 0    50   ~ 0
 EDUCIAA CIRCUIT EXTERN
 $Comp
@@ -2145,4 +2109,42 @@ Wire Notes Line
 	9000 4100 9000 5000
 Wire Notes Line
 	3650 5000 9000 5000
+NoConn ~ 3800 6900
+$Comp
+L Poncho_Esqueleto:Conn_Poncho2P_2x_20x2 XA1
+U 2 1 5F824C2E
+P 4050 5800
+F 0 "XA1" H 4400 6347 60  0000 C CNN
+F 1 "Conn_Poncho2P_2x_20x2" H 4400 6241 60  0000 C CNN
+F 2 "Poncho_Esqueleto:Conn_Poncho_Chico" H 4050 5800 60  0001 C CNN
+F 3 "" H 4050 5800 60  0000 C CNN
+	2    4050 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 5600 3800 5600
+Wire Wire Line
+	3700 5800 3800 5800
+Wire Wire Line
+	3700 5700 3800 5700
+Wire Wire Line
+	3700 6000 3800 6000
+Wire Wire Line
+	3700 6100 3800 6100
+Wire Wire Line
+	3700 6300 3800 6300
+Wire Wire Line
+	3700 6400 3800 6400
+Wire Wire Line
+	3700 6700 3800 6700
+Wire Wire Line
+	3700 6800 3800 6800
+Wire Wire Line
+	3700 7300 3800 7300
+Wire Wire Line
+	3700 7400 3800 7400
+Wire Wire Line
+	5200 7000 5200 7050
+Wire Wire Line
+	5000 7000 5200 7000
 $EndSCHEMATC
