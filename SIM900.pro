@@ -1,4 +1,4 @@
-update=vie 16 oct 2020 21:31:40 -03
+update=dom 01 nov 2020 19:49:22 -03
 version=1
 last_client=kicad
 [general]
@@ -39,13 +39,17 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
-TrackWidth2=0.6
-TrackWidth3=0.7
-TrackWidth4=0.8
+TrackWidth2=0.25
+TrackWidth3=0.5
+TrackWidth4=0.6
+TrackWidth5=0.7
+TrackWidth6=0.8
 ViaDiameter1=0.8
 ViaDrill1=0.4
-ViaDiameter2=1.6
-ViaDrill2=0.8
+ViaDiameter2=1
+ViaDrill2=0.5
+ViaDiameter3=1.6
+ViaDrill3=0.8
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -78,11 +82,11 @@ Name=F.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=In1.Cu_VCD
+Name=In1.Cu_GND
 Type=1
 Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=In2.Cu_GND
+Name=In2.Cu_VCD
 Type=1
 Enabled=1
 [pcbnew/Layer.In3.Cu]
@@ -242,7 +246,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.3
+Clearance=0.25
 TrackWidth=0.25
 ViaDiameter=0.8
 ViaDrill=0.4

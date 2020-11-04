@@ -52,9 +52,9 @@ U 1 1 5F593E88
 P 1150 1200
 F 0 "C4" H 1200 1100 50  0000 L CNN
 F 1 "100uF" H 1200 1000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1150 1200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 1150 1200 50  0001 C CNN
 F 3 "~" H 1150 1200 50  0001 C CNN
-F 4 "399-17617-2-ND" H 1150 1200 50  0001 C CNN "Digikey"
+F 4 "718-2364-6-ND" H 1150 1200 50  0001 C CNN "Digikey"
 	1    1150 1200
 	1    0    0    -1  
 $EndComp
@@ -342,7 +342,7 @@ F 0 "J9" H 2750 3200 50  0000 L CNN
 F 1 "SIM_Card" H 2750 3100 50  0000 L CNN
 F 2 "Connector_Card:microSD_HC_Hirose_DM3D-SF" H 2650 3850 50  0001 C CNN
 F 3 " ~" H 2600 3500 50  0001 C CNN
-F 4 "" H 2650 3500 50  0001 C CNN "Digikey"
+F 4 "WM6698DKR-ND" H 2650 3500 50  0001 C CNN "Digikey"
 	1    2650 3500
 	1    0    0    -1  
 $EndComp
@@ -1165,8 +1165,9 @@ U 1 1 5FC294EB
 P 6250 3000
 F 0 "J3" H 6300 3250 50  0000 C CNN
 F 1 "Conn_01x04" H 6000 3200 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical" H 6250 3000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6250 3000 50  0001 C CNN
 F 3 "~" H 6250 3000 50  0001 C CNN
+F 4 "S9009E-04-ND" H 6250 3000 50  0001 C CNN "Digikey"
 	1    6250 3000
 	-1   0    0    -1  
 $EndComp
@@ -1184,8 +1185,9 @@ U 1 1 5FC80116
 P 8550 3950
 F 0 "J7" H 8600 3950 50  0000 L CNN
 F 1 "Conn_01x03" H 8250 3750 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical" H 8550 3950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8550 3950 50  0001 C CNN
 F 3 "~" H 8550 3950 50  0001 C CNN
+F 4 "S9008E-03-ND" H 8550 3950 50  0001 C CNN "Digikey"
 	1    8550 3950
 	1    0    0    -1  
 $EndComp
@@ -1285,6 +1287,7 @@ F 0 "J12" H 10800 3200 50  0000 R CNN
 F 1 "AudioJack2_Ground" H 10800 3300 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 10550 3000 50  0001 C CNN
 F 3 "~" H 10550 3000 50  0001 C CNN
+F 4 "CP-SJ2-35813B-SMT-DKR-ND" H 10550 3000 50  0001 C CNN "Digikey"
 	1    10550 3000
 	-1   0    0    -1  
 $EndComp
@@ -1296,6 +1299,7 @@ F 0 "J13" H 4300 4100 50  0000 R CNN
 F 1 "AudioJack2_Ground" H 4400 4200 50  0000 R CNN
 F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 4050 3900 50  0001 C CNN
 F 3 "~" H 4050 3900 50  0001 C CNN
+F 4 "CP-SJ2-35813B-SMT-DKR-ND" H 4050 3900 50  0001 C CNN "Digikey"
 	1    4050 3900
 	1    0    0    -1  
 $EndComp
@@ -1334,8 +1338,9 @@ U 1 1 5F9ED2D3
 P 8550 2700
 F 0 "J4" H 8600 2650 50  0000 L CNN
 F 1 "Conn_01x06" H 8250 3000 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical" H 8550 2700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 8550 2700 50  0001 C CNN
 F 3 "~" H 8550 2700 50  0001 C CNN
+F 4 "S7004-ND" H 8550 2700 50  0001 C CNN "Digikey"
 	1    8550 2700
 	1    0    0    -1  
 $EndComp
@@ -1345,8 +1350,9 @@ U 1 1 5FA05EAD
 P 8550 3300
 F 0 "J6" H 8600 3300 50  0000 L CNN
 F 1 "Conn_01x06" H 8250 2900 50  0000 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical" H 8550 3300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 8550 3300 50  0001 C CNN
 F 3 "~" H 8550 3300 50  0001 C CNN
+F 4 "S7004-ND" H 8550 3300 50  0001 C CNN "Digikey"
 	1    8550 3300
 	1    0    0    -1  
 $EndComp
@@ -1708,8 +1714,9 @@ U 1 1 5FF94A65
 P 6250 3800
 F 0 "J2" H 6350 4050 50  0000 C CNN
 F 1 "Conn_01x04" H 6050 4000 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical" H 6250 3800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6250 3800 50  0001 C CNN
 F 3 "~" H 6250 3800 50  0001 C CNN
+F 4 "S9009E-04-ND" H 6250 3800 50  0001 C CNN "Digikey"
 	1    6250 3800
 	-1   0    0    -1  
 $EndComp
@@ -1719,8 +1726,9 @@ U 1 1 5FFB4CDB
 P 6250 2100
 F 0 "J1" H 6350 2450 50  0000 C CNN
 F 1 "Conn_01x05" H 6050 2400 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 6250 2100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 6250 2100 50  0001 C CNN
 F 3 "~" H 6250 2100 50  0001 C CNN
+F 4 "S6103-ND" H 6250 2100 50  0001 C CNN "Digikey"
 	1    6250 2100
 	-1   0    0    -1  
 $EndComp
@@ -1928,43 +1936,31 @@ F 3 "~" H 9400 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9800 1050 9500 1050
-$Comp
-L Connector:Conn_Coaxial_Power J11
-U 1 1 5F80D385
-P 9300 1050
-F 0 "J11" V 9250 900 50  0000 C CNN
-F 1 "Conn_Coaxial_Power" V 9150 1150 50  0000 C CNN
-F 2 "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical" H 9300 1000 50  0001 C CNN
-F 3 "~" H 9300 1000 50  0001 C CNN
-	1    9300 1050
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	10000 1250 10000 1300
+	9400 1250 9400 1300
 $Comp
 L power:GND #PWR03
 U 1 1 5FE876DE
-P 10000 1300
-F 0 "#PWR03" H 10000 1050 50  0001 C CNN
-F 1 "GND" H 10005 1127 50  0000 C CNN
-F 2 "" H 10000 1300 50  0001 C CNN
-F 3 "" H 10000 1300 50  0001 C CNN
-	1    10000 1300
+P 9400 1300
+F 0 "#PWR03" H 9400 1050 50  0001 C CNN
+F 1 "GND" H 9405 1127 50  0000 C CNN
+F 2 "" H 9400 1300 50  0001 C CNN
+F 3 "" H 9400 1300 50  0001 C CNN
+	1    9400 1300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_Coaxial_x2_Isolated J8
 U 1 1 5FE618B1
-P 10000 1050
-F 0 "J8" H 10100 1025 50  0000 L CNN
-F 1 "Conn_Coaxial_x2_Isolated" H 10050 950 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal" H 10000 1050 50  0001 C CNN
-F 3 " ~" H 10000 1050 50  0001 C CNN
-	1    10000 1050
+P 9400 1050
+F 0 "J8" H 9500 1025 50  0000 L CNN
+F 1 "Conn_Coaxial_x2_Isolated" H 9450 950 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132291-12_Vertical" H 9400 1050 50  0001 C CNN
+F 3 " ~" H 9400 1050 50  0001 C CNN
+F 4 "2057-RF2-49B-T-00-50-G-HDW-ND" H 9400 1050 50  0001 C CNN "Digikey"
+	1    9400 1050
 	1    0    0    -1  
 $EndComp
-Text Notes 10000 1650 0    50   ~ 0
+Text Notes 9400 1650 0    50   ~ 0
 ANTENA CIRCUIT
 Wire Wire Line
 	8600 1700 8600 1050
